@@ -58,7 +58,7 @@ defmodule PhoenixTokenAuth.Mixfile do
         {:joken, ">= 0.13.1"},
         {:poison, ">= 1.5.0"},
         {:secure_random, "~> 0.1.0"},
-        {:mailgun, "~> 0.1.2"},
+        {:mailgun, ">= 0.1.2"},
         {:timex, "~> 0.19"},
         # DEV
         {:earmark, "~> 0.1.0", only: :dev},
