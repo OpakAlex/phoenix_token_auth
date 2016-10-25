@@ -50,13 +50,13 @@ defmodule PhoenixTokenAuth.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-        {:cowboy, "~> 1.0.0"},
-        {:phoenix, "~> 1.1.0"},
-        {:ecto, "~> 1.0"},
+        {:cowboy, ">= 1.0.0"},
+        {:phoenix, ">= 1.1.0"},
+        {:ecto, ">= 1.0.0"},
         {:comeonin, "~> 2.0.0"},
         {:postgrex, ">= 0.6.0"},
-        {:joken, "~> 0.13.1"},
-        {:poison, "~> 1.5.0"},
+        {:joken, ">= 0.13.1"},
+        {:poison, ">= 1.5.0"},
         {:secure_random, "~> 0.1.0"},
         {:mailgun, "~> 0.1.2"},
         {:timex, "~> 0.19"},
